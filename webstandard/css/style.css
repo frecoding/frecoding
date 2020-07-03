@@ -141,22 +141,12 @@ body {background-color: #f1f4fb;}
 .notice3 .more {position: absolute; right: 0; top: 0; 
     background: url(../img/icon.png) -150px -90px no-repeat; width: 17px; height: 17px; display: block;}
 
-/* notice4 */
-.notice4 {position: relative; border: 1px solid #ccc;}
-.notice4 h4 {color: red; font-size: 14px; font-weight: bold; margin-bottom: 3px; border-bottom: 1px solid #ccc; padding: 8px 10px;}
-.notice4 em {color: blue;}
-.notice4 ul {padding: 10px;}
-.notice4 ul li {overflow: hidden; background: url(../img/dot.gif) no-repeat 0 8px; padding-left: 8px;}
-.notice4 ul li a {float: left; width: 65%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; padding: 1px;}
-.notice4 ul li .time {float: right; width: 30%; text-align: right;}
-.notice4 .more {position: absolute; right: 8px; top: 8px; display: block;}
-
 /* login-wrap */
 #login-wrap {border: 1px solid #c8c8c8; height: 118px; margin-bottom: 15px; position: relative;}
 #login-header {width: 257px; height: 25px; position: absolute; left: 15px; top: 10px;}
 #login-header .login_lever {overflow: hidden;}
 #login-header .login_lever li {float: left;}
-#login-header .login_lever li a {border: 1px solid #ccc; display: inline-block; width: 16px; height: 16px; text-align: center; color: #888; font-size: 14px; background-color: #fff; font-weight: bold;}
+#login-header .login_lever li a {border: 1px solid #ccc; display: inline-block; width: 16px; height: 16px; text-align: center; color: #888; font-size: 14px; background-color: #fff; font-weight: bold; line-height: 16px;}
 #login-header .login_lever li:first-child a {background: #0093bd; color: #fff;}
 #login-header .login_info {position: absolute; left: 65px; top: -5px;}
 #login-header .login_info .ip {position: absolute; left: 115px; top: 5px; width: 80px;}
@@ -185,6 +175,16 @@ body {background-color: #f1f4fb;}
 .ad .more {position: absolute; right: 0; top: 0; 
     background: url(../img/icon.png) -150px -90px no-repeat; width: 17px; height: 17px; display: block;}
 .ad .more:hover {background-position: -167px -90px;}
+
+/* notice4 */
+.notice4 {position: relative; border: 1px solid #ccc;}
+.notice4 h4 {color: red; font-size: 14px; font-weight: bold; margin-bottom: 3px; border-bottom: 1px solid #ccc; padding: 8px 10px;}
+.notice4 em {color: blue;}
+.notice4 ul {padding: 10px;}
+.notice4 ul li {overflow: hidden; background: url(../img/dot.gif) no-repeat 0 8px; padding-left: 8px;}
+.notice4 ul li a {float: left; width: 65%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; padding: 1px;}
+.notice4 ul li .time {float: right; width: 30%; text-align: right;}
+.notice4 .more {position: absolute; right: 8px; top: 8px; display: block;}
 
 /* Notice Hover */
 .notice-hover {position: relative;}
