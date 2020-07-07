@@ -34,14 +34,13 @@ body {background-color: #f1f4fb;}
 */
 
 /* title position */
-.title {}
 .title h1 {position: absolute; left: 400px; top: 170px;}
 .title h1 a {background-color: #4aa8d4; font-size: 18px; color: white; text-transform: capitalize; padding: 5px 15px; display: block;}
 .title p {background: #2698cb; font-size: 34px; color: white; padding: 5px 15px; text-transform: uppercase; 
-    position: absolute; left: 190px; top: 130px; }
+    position: absolute; left: 190px; top: 110px; }
 
 /* icon */
-.icon {position: absolute; left: 350px; top: 220px;}
+.icon {position: absolute; left: 365px; top: 220px;}
 .icon ul {overflow: hidden;}
 .icon li {float: left;}
 .icon a {width: 60px; height: 60px; display: block; margin: 0 3px; background-image: url(../img/icon.png);}
