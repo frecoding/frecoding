@@ -70,6 +70,7 @@ body {background-color: #f1f4fb;}
 .tit .btn:hover {background-position: -60px -600px;}
 
 /* ban */
+/*
 .ban .ban-prev {position: absolute; left: -40px; top: 60px; width: 43px; height: 43px; 
     background: url(../img/icon.png) -150px 0;}
 .ban .ban-prev:hover {background-position: -193px 0;}
@@ -81,7 +82,7 @@ body {background-color: #f1f4fb;}
 .ban ul li a img:hover {border-color: #98bcdc;}
 .ban ul {overflow: hidden;}
 .ban ul li {float: left; width: 330px; text-align: center;}
-.ban ul li a {}
+*/
 
 /* cont layout */
 .cont {overflow: hidden; padding-top: 30px;}
