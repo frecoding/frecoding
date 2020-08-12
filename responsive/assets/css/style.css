@@ -1,0 +1,58 @@
+/* LAYOUT */
+* {margin: 0; padding: 0;}
+#header {height: 327px; background: url(../img/header_bg.jpg) repeat-x center top;}
+
+/* container */
+.container {width: 1200px; margin: 0 auto;}
+
+/* quick */
+.quick {text-align: right;}
+.quick a {color: #fff; padding: 5px 0 0 10px; display: inline-block; transition: all .5s ease;}
+.quick a:hover {color: #000;}
+
+/* media query */
+/* pc */
+@media (max-width: 1280px){
+    .container {width: 100%;}
+}
+@media (max-width: 1024px){
+    
+}
+@media (max-width: 960px){
+    
+}
+/* 태블릿 */
+@media (max-width: 768px){
+    
+}
+@media (max-width: 600px){
+    
+}
+/* 모바일 */
+@media (max-width: 480px){
+    
+}
+@media (max-width: 320px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
