@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>ReLayout1</title>
+    
+    <style>
+        * {margin: 0; padding: 0;}
+        body {background-color: #c8e6c9;}
+        #wrap {width: 1200px; height: 1200px; margin: 0 auto;}
+        header {width: 100%; height: 15%; background-color: #c5cae9;}
+        aside {width: 30%; height: 70%; background-color: #9fa8da; float: left;}
+        article {width: 70%; height: 70%; background-color: #7986cb; float: left;}
+        footer {width: 100%; height: 15%; background-color: #5c6bc0; clear: both;}
+        
+        @media (max-width: 1290px){
+            #wrap {width: 95%;}
+        }
+        @media (max-width: 768px){
+            #wrap {width: 100%;}
+            header {height: 20%;}
+            aside {height: 60%;}
+            article {height: 60%;}
+            footer {height: 20%;}
+        }
+        @media (max-width: 480px){
+            header {height: 40%;}
+            aside {width: 100%; height: 40%; float: none;}
+            article {width: 100%; float: none;}
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="wrap">
+        <header></header>
+        <aside></aside>
+        <article></article>
+        <footer></footer>
+    </div>
+</body>
+</html>

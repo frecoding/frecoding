@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>ReLayout3</title>
+    
+    <style>
+        * {margin: 0; padding: 0;}
+        #wrap {width: 1200px; height: 1024px; margin: 0 auto;}
+        header {width: 100%; height: 10%; background-color: #00897b;}
+        aside {width: 20%; height: 80%; background-color: #b2dfdb; float: left;}
+        #article1 {width: 80%; height: 26.6666%; background-color: #80cbc4; float: left;}
+        #article2 {width: 80%; height: 26.6666%; background-color: #4db6ac; float: left;}
+        #article3 {width: 80%; height: 26.6666%; background-color: #26a69a; float: left;}
+        footer {width: 100%; height: 10%; background-color: #009688; clear: both;}
+        
+        @media (max-width: 1024px){
+            #wrap {width: 100%;}
+            header {height: 15%;}
+            aside {height: 85%;}
+            #article1 {height: 42.5%;}
+            #article2 {height: 42.5%;}
+            #article3 {width: 100%; clear: both;}
+        }
+        @media (max-width: 768px){
+            header {height: 20%;}
+            aside {float: none; width: 100%; height: 20%;}
+            #article1 {width: 50%; height: 60%;}
+            #article2 {width: 50%; height: 60%;}
+        }
+        @media (max-width: 480px){
+            header {height: 30%;}
+            aside {height: 30%;}
+            #article1 {width: 100%; height: 40%;}
+            #article2 {width: 100%; height: 40%;}
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="wrap">
+        <header></header>
+        <aside></aside>
+        <article id="article1"></article>
+        <article id="article2"></article>
+        <article id="article3"></article>
+        <footer></footer>
+    </div>
+</body>
+</html>
