@@ -1,19 +1,31 @@
-/* LAYOUT */
+/* Layout */
 * {margin: 0; padding: 0;}
 #header {height: 327px; background: url(../img/header_bg.jpg) repeat-x center top;}
 
 /* container */
-.container {width: 1200px; margin: 0 auto;}
+.container {width: 1200px; margin: 0 auto; background-color: rgba(0,0,0,.3);}
 
 /* quick */
 .quick {text-align: right;}
 .quick a {color: #fff; padding: 5px 0 0 10px; display: inline-block; transition: all .5s ease;}
 .quick a:hover {color: #000;}
 
+/* title */
+.title {text-align: center; text-transform: uppercase; padding-top: 75px;}
+.title p {font-size: 24px; padding: 10px 20px; background-color: #51b0dc; color: #fff; display: inline;}
+.title h1 a {font-size: 14px; color: #fff; padding: 10px 20px; background-color: #4a9abf; display: inline;}
+
+
+
+
+
+
+
 /* media query */
 /* pc */
 @media (max-width: 1280px){
     .container {width: 100%;}
+    .row {padding: 0 10px;}
 }
 @media (max-width: 1024px){
     
