@@ -1,5 +1,5 @@
 /* 여백 초기화 */
-body, div, dl, dd, dt, ul, ol, li, h1, h2, h3, h4, h5, h6, form, legend, textarea, select, fieldset, p, input, button, em, strong {margin: 0; padding: 0;}
+body, div, dl, dd, dt, ul, ol, li, h1, h2, h3, h4, h5, h6, form, legend, textarea, select, fieldset, p, input, button, em, strong, figure, figcaption {margin: 0; padding: 0;}
 
 /* 링크 초기화 */
 a {color: #273743; text-decoration: none;}
@@ -25,11 +25,22 @@ em, address {font-style: normal;}
 /* 테두리 초기화 */
 img, fieldset, button {border: 0;}
 
+/* 가로모드 글씨 크기 초기화 */
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+}
+
 /* clearfix */
 .clearfix:before, .clearfix:after {
 	content:''; display: block; clear: both;
 }
+/* 시멘틱 태그 블록화 */
+section, article, aside, figure, figcaption, footer, header, menu, nav, details {display: block;}
 
+/* 반응형 이미지 */
+img {width: 100%;}
 
 
 
